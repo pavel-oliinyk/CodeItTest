@@ -31,7 +31,7 @@ $(document).ready(function(){
 	}); 
 });
 
-	$.getJSON("http://codeit.pro/frontTestTask/company/getList", function(json){
+	$.getJSON("https://codeit.pro/frontTestTask/company/getList", function(json){
 		var output = '';
 		//console.log(json);
 		var inc = 0;
