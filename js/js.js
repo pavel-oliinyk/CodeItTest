@@ -85,7 +85,7 @@ function get_partner(inc){
 // 	}); 
 // });
 $(document).ready(function(){ 
-	$.getJSON("http://codeit.pro/frontTestTask/news/getList", function(json) { // стягиваем компании с урлы сайта
+	$.getJSON("https://codeit.pro/frontTestTask/news/getList", function(json) { // стягиваем компании с урлы сайта
 		if(json['list']){  // получаем массив с компаниями
 			var listAuthors = json['list'];
 			var lengthofAuthors = listAuthors.length; // получаем количество компаний, которое равно количеству элементов массива
