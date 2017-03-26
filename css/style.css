@@ -1,0 +1,181 @@
+.wrapper{
+	max-width: 1650px;
+}
+.reg-form{
+	max-width: 650px;
+	margin: 200px auto;
+	border: 2px solid rgba(148,204,209, 0.3);
+	border-radius: 5px;
+}
+.header-form{
+	text-align: center;
+	background-color: rgba(148,204,209, 0.3);
+}
+.header-form p{
+	font-size: 17px;
+	font-weight: bold;
+	padding: 5px 0 5px;
+}
+.form-fid{
+	outline: none;
+	width: 500px;
+	margin: 0 auto 10px;
+	display: block;
+	border: 2px solid rgba(148,204,209, 0.3);
+}
+.form-fid .fa{
+    border-right: none;
+    font-size: 20px;
+    border-right: 1px solid rgba(148,204,209, 0.3);
+    text-align: center;
+    padding: 6px;
+    background-color: rgba(148,204,209, 0.3);
+    width: 35px;
+}
+
+.form-fid input{
+	padding: 0 0 ;
+	border: none;
+	outline: none;
+	display: inline-block;
+	color: #94ccd1;
+}
+
+.form-fid.icon {
+	display: inline-block;
+}
+.form-fid .check-l{
+	width: 100%;
+	outline: none;
+	height: 35px;	
+}
+.form-check{
+	width: 500px;
+	margin: 0 auto 10px;
+	display: block;
+}
+.form-check p{
+	display: inline-block;
+	color: #94ccd1;
+}
+.form-fid .check-l option{
+	color: rgba(148,204,209, 1);
+}
+.main-cont{
+	width: 100%;
+}
+.firs-bl,
+.sec-bl{
+	border: 1px solid rgba(148,204,209, 0.3);
+	padding: 0;
+	text-align: center;
+	height: 200px;
+	overflow: hidden;
+	display: inline-block;
+	background:linear-gradient(to right, #53684d, #4ede27,#d0b798,#5f5344);
+}
+.slider-bl{
+	border: 1px solid rgba(148,204,209, 0.3);
+	padding: 0;
+	text-align: center;
+	height: 200px;
+	overflow: hidden;
+	display: inline-block;
+    background:linear-gradient(to right, #ff5656, #56ffd5);
+}
+.slider-bl p{
+	padding: 5px;
+	margin: 0;
+}
+.firs-bl p,
+.sec-bl p{
+	background-color: rgba(148,204,209, 0.3);
+	padding: 5px 0 5px 15px;
+	text-align: left;
+	margin: 0;
+}
+.TotalComp{
+	border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    padding: 50px;
+    display: inline-block;
+}
+.list-comp{
+	display: inline-block;
+}
+.company-list{
+	overflow: scroll;
+	height: 100%;
+}
+.company-list ul{
+	padding: 0;
+}
+.company-list ul a {
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+.company-list ul a li{
+	transition: 0.3s;
+}
+.company-list ul a li:hover {
+		background-color:#22be6c;
+}
+.partners{
+	display: none;
+	background:linear-gradient(to right, #efdfca, #4ede27,#d0b798,#5f5344,#77726c);
+}
+.partners ul{
+	display: none;
+}
+.bl-diag{
+	text-align: center;
+}
+.diag{
+	border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 50px;
+}
+.slider-side{
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+}
+.slider-in{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	font-size:10px;
+}
+
+.pic-slick{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+    margin: 10px 20px 5px 10px;
+}
+.pic-slick img{
+	width: 100%;
+	height: auto;
+}
+.clear{
+	clear: both;
+}
+.authornameblock,
+.public-bl{
+	text-align: left;
+    margin-left: 5px
+}
+.authornameblock p,
+.public-bl p{
+	display: inline-block;
+}
+
+.title-bl{
+	display: inline-block;
+    width: 370px;
+
+}
