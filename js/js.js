@@ -31,7 +31,7 @@ $(document).ready(function(){
 	}); 
 });
 
-	$.getJSON("https://codeit.pro/frontTestTask/company/getList", function(json){
+	$.getJSON("http://codeit.pro/frontTestTask/company/getList", function(json){
 		var output = '';
 		//console.log(json);
 		var inc = 0;
@@ -85,7 +85,7 @@ function get_partner(inc){
 // 	}); 
 // });
 $(document).ready(function(){ 
-	$.getJSON("https://codeit.pro/frontTestTask/news/getList", function(json) { // стягиваем компании с урлы сайта
+	$.getJSON("http://codeit.pro/frontTestTask/news/getList", function(json) { // стягиваем компании с урлы сайта
 		if(json['list']){  // получаем массив с компаниями
 			var listAuthors = json['list'];
 			var lengthofAuthors = listAuthors.length; // получаем количество компаний, которое равно количеству элементов массива
